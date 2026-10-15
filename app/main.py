@@ -5,6 +5,8 @@ connect it to PostgreSQL in Week 4, deploy it in Lab 3 and test it
 in a pipeline from Week 6.
 """
 
+MISSING = os.environ["DEFINITELY_NOT_SET"]
+
 import os
 
 from fastapi import FastAPI, HTTPException
